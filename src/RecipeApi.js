@@ -15,7 +15,7 @@ function RecipeApi({label, image, calories, ingredients, totalTime}) {
         </ul>
         <div className="parent">
         <p className="par">{calories.toFixed()} calories</p>
-        <p className="par">{totalTime} min cooking time</p>
+        <p className="par">cooking time: {totalTime} min</p>
     </div>
 </div>
     )
