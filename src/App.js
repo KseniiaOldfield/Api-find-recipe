@@ -1,6 +1,6 @@
 import './App.css';
 import { useEffect, useState } from 'react';
-import video from './fun-chef.mp4';
+import video from './chef.mp4';
 import RecipeIceCream from './RecipeApi';
 import icon from './frying-pan.png';
 
@@ -10,7 +10,7 @@ function App() {
 
   const [mySearch, setMySearch] = useState('');
   const [myRecipes, setMyRecipes] = useState([]);
-  const [wordSubmitted, setWordSubmitted] = useState('broccoli')
+  const [wordSubmitted, setWordSubmitted] = useState('fern')
 
   useEffect(() => {
     const getRecipe = async ()=> {
