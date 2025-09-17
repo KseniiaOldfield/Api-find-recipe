@@ -10,7 +10,7 @@ function App() {
 
   const [mySearch, setMySearch] = useState('');
   const [myRecipes, setMyRecipes] = useState([]);
-  const [wordSubmitted, setWordSubmitted] = useState('fern')
+  const [wordSubmitted, setWordSubmitted] = useState('fern shrimp')
 
   useEffect(() => {
     const getRecipe = async ()=> {
